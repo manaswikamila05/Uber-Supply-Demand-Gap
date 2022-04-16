@@ -17,12 +17,12 @@ The aim of analysis is to identify the root cause of the problem (i.e. cancellat
 
 ### Dataset
 The data set is a **masked data set** which is similar to what data analysts at Uber handle. There are six attributes associated with each request made by a customer:
-**Request id**: A unique identifier of the request
-**Time of request**: The date and time at which the customer made the trip request
-**Drop-off time**: The drop-off date and time, in case the trip was completed 
-**Pick-up point**: The point from which the request was made
-**Driver id**: The unique identification number of the driver
-**Status of the request**: The final status of the trip, that can be either completed, cancelled by the driver or no cars available
+1. **Request id**: A unique identifier of the request
+2. **Time of request**: The date and time at which the customer made the trip request
+3. **Drop-off time**: The drop-off date and time, in case the trip was completed 
+4. **Pick-up point**: The point from which the request was made
+5. **Driver id**: The unique identification number of the driver
+6. **Status of the request**: The final status of the trip, that can be either completed, cancelled by the driver or no cars available
 
 **Note**: Only the trips to and from the airport are being considered.
 
